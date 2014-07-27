@@ -1,22 +1,22 @@
-Tidy Smartphone Data
+#Tidy Smartphone Data
 cleaned by Paul Nguyen
 
 
-DATA
+###DATA
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocities. The tidy dataset averages the mean and standard deviation features by each activity and each subject.
 
-==================================================================
+---
 
-CLEANING PROCESS
+###CLEANING PROCESS
 1. combined the test and training data into a single dataset. This included merging the subject ids and activity types to the 3-axial data
 2. extracted only the feature variables on mean and standard deviation.
 3. converted activity ids into descriptive type names
 4. labeled all the columns with descriptive variable names
 5. found the mean of each variable by activity and subject
 
-==================================================================
+---
 
-VARIABLES (81)
+###VARIABLES (81)
 subject - the subject ids. there are 30 subjects
 activity - the activity the subject was doing when the measurements were taken. 
 
